@@ -6,7 +6,7 @@ const inputUAH = document.querySelector('#uah'),
 inputUAH.addEventListener('input', () => {
     const request = new XMLHttpRequest();
 
-    request.open('GET', 'js/current1.json');
+    request.open('GET', 'js/current.json');
     request.setRequestHeader('Content-type', 'application/json; charset=UTF-8');
     request.send();
 
